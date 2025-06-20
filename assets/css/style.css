@@ -22,6 +22,13 @@ a { color:blue; text-decoration: none;}
     padding-left: 1rem;
     padding-right: 1rem;
 }
+header {
+  display: flex;
+  align-items: center; /* alinha verticalmente */
+  gap: 10px; /* espaço entre os itens */
+  margin-left: 10px;
+  margin-top: 10px;
+}
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
@@ -35,4 +42,15 @@ a { color:blue; text-decoration: none;}
 }
 figure {
     text-align: center;
+}
+
+#logo {
+  text-align: left; /* alinha conteúdo dentro do figure à esquerda */
+  margin:0;
+}
+#wikipedia {
+    margin-left:auto;
+    justify-content: flex-end;
+    margin-inline-end: 10px;
+    text-aligh:right;
 }

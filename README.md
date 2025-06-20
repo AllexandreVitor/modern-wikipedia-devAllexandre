@@ -1,7 +1,7 @@
 # 🚀 Desafio de Projeto - Refazer o wikipedia de uma maneira mais moderna
 
 📌 **Nível:** Iniciante  
-🎯 **Objetivo:** Criar de uma maneira um pouco mais moderna o site wikipedia, utilizando HTML semântico e um pouco de CSS.  
+🎯 **Objetivo:** Recriando o wikipedia com Layot moderno, utilizando HTML semântico e um pouco de CSS.  
 🗣️ **Idioma da escrita:** Português (pt-BR)  
 👨‍💻 **Desenvolvedor:** [devAllexandre](https://github.com/AllexandreVitor)   
 
