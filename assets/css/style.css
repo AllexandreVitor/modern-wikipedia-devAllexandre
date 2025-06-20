@@ -5,6 +5,17 @@ body, html {
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -30,8 +41,23 @@ header {
   margin-top: 10px;
 }
 footer {
-    min-height: 100px;
+    position: fixed;
+    bottom: 0; /*Fixa o footer no fundo da tela*/
+    width: 100%; /*Estende até a largura total da tela*/
+    background-color: rgb(77, 77, 77);
+    min-height: 60px;
     border-top: solid 1px #cdcdcd;
+    color: rgb(255, 170, 0);
+    
+    /* centralização real */
+    display: flex;
+    justify-content: center;   /* horizontal */
+    align-items: center;       /* vertical */
+    text-align: center;        /* múltiplas linhas */);
+
+}
+p {
+    text-align:justify
 }
 #sidebar {
     grid-area:sidebar;
@@ -39,6 +65,7 @@ footer {
 }
 #principal {
     grid-area: principal;
+    text-align:center;
 }
 #anchors {
     grid-area: anchors;
@@ -54,8 +81,7 @@ figure {
   margin:0;
 }
 #wikipedia {
-    margin-left:auto;
-    justify-content: flex-end;
-    margin-inline-end: 10px;
+    margin-left: auto;
+    margin-right: 10px;
     text-align: right;
 }
