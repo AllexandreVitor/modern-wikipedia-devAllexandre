@@ -41,9 +41,6 @@ header {
   margin-top: 10px;
 }
 footer {
-    position: fixed;
-    bottom: 0; /*Fixa o footer no fundo da tela*/
-    width: 100%; /*Estende até a largura total da tela*/
     background-color: rgb(77, 77, 77);
     min-height: 60px;
     border-top: solid 1px #cdcdcd;
